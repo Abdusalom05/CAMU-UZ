@@ -45,7 +45,7 @@ function Header() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost normal-case text-xl">CAMU</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -70,9 +70,45 @@ function Header() {
               </ul>
             </details>
           </li>
-          <li>
-            <a>Item 3</a>
+          <li tabIndex={0}>
+            <details>
+              <summary>
+                <a>Yo'nalishlar</a>
+              </summary>
+              <ul className="p-2">
+                <li>
+                  <a>Bakalavr</a>
+                </li>
+              </ul>
+            </details>
           </li>
+          <li tabIndex={0}>
+            <details>
+              <summary>
+                <a>So'ngi yangiliklar</a>
+              </summary>
+              <ul className="p-2">
+                <li>
+                  <a>Maqolalar</a>
+                </li>
+                <li>
+                  <a>Eng so'ngilari</a>
+                </li>
+                <li>
+                  <a>Maqolalar</a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <a>Rasmlar</a>
+          </li> 
+          <li>
+            <a>Acta CAMU</a>
+          </li> 
+          <li>
+            <a>Aloqa</a>
+          </li> 
         </ul>
       </div>
       <div className="navbar-end">

@@ -73,6 +73,10 @@ function App() {
       path: "SongiYangiliklar",
       errorElement: <Error />,
     },
+    {
+      element: <NotFound />,
+      path: "*",
+    },
   ]);
   return (
     <>
