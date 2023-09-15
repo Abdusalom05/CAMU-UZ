@@ -77,7 +77,9 @@ function App() {
   return (
     <>
       <Header />
-      <RouterProvider router={routes} />
+      <div className="container-css">
+        <RouterProvider router={routes} />
+      </div>
       <Footer />
     </>
   );
