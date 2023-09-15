@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 function Header() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="container-css navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -94,7 +94,7 @@ function Header() {
             </details>
           </li>
           <li>
-            <a>Item 1</a>
+            <a>Dark mode</a>
           </li>
         </ul>
       </div>
